@@ -1,33 +1,9 @@
-img{
-    width: 50px;
-    height: 245px;
-}
+
+/* debut navbar */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: ffffff;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
 
-  /* debut navbar */
-  header{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,27 +12,64 @@ ul {
     color: #fff;
     height: 70px;
 }
-header a{
-    text-decoration: none;
-    color: #fff;
-    width: 100px;
+:root{
+    --danger:rgb(178, 42, 42);
+    --white:white;
 }
-header a:hover{
-    color: green;
+.navbar{
+    background:var(--danger);
 }
-nav ul{
-    list-style-type: none;
+.nav-link{
+    color: var(--white) !important;
+    cursor: pointer;
 }
-nav ul li{
-    float: left;
-    margin-right: 15px;
+.nav-link {
+    margin-right: 1em !important;
 }
-
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
+.nav-link:hover {
+     background: var(--white); color: var(--danger) !important
+    }
+.navbar-collapse {
+     justify-content: flex-end;
+    }
+.navbar-toggler {
+     background:#fff !important;
+    }
+.active{
+    color: #fff !important;
 }
+.active:hover {
+     background: var(--white) !important; color: var(--danger) !important;
+     }
   
 
   
  /* fin navbar */
+/* style sur les images */
+img{
+    width: 40px;
+    height: 245px;
+    
+
+}
+img:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.1);
+    Animation-name : fade ;
+    Animation-delay : 2s ;
+    Animation-duration : 3s ;
+    Animation-iteration-count : infinite ;
+}
+/* fin de style image */
+/*  style body et h2 */
+body{
+    /* background-color: rgb(79, 79, 216); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPcxKzD2QCBQQPgc0mZXPyCB6ZHyNVSentBA&usqp=CAU");
+    background-repeat: no-repeat ;
+	background-size:cover ;
+}
+h2{
+    color:black;
+}
+/* fin de style */
+
