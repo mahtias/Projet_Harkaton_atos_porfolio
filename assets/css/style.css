@@ -15,7 +15,9 @@
 .nav-link:hover {
    background: var(--white); color: var(--danger) !important
   }
-.navbar-collapse {
+
+  
+  .navbar-collapse {
    justify-content: flex-end;
   }
 .navbar-toggler {
@@ -24,7 +26,7 @@
 .active{
   color: #fff !important;
 }
-.active:hover {
+.active:hover, .active {
    background: var(--white) !important; color: var(--danger) !important;
    }
 
