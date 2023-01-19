@@ -1,8 +1,52 @@
+/* GENERALE */
+:root{
+    --danger:rgb(178, 42, 42);
+    --white:white;
+}
+
+/* NAVBAR */
+.navbar{ 
+    background:var(--danger);
+}
+
+.nav-link{ 
+    color: var(--white) !important; 
+    cursor: pointer;
+}
+
+.nav-link { 
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+     background: var(--white); color: var(--danger) !important 
+    }
+
+.navbar-collapse {
+     justify-content: flex-end;
+    }
+
+.navbar-toggler { 
+     background:#fff !important;
+    } 
+
+.active{
+    color: #fff !important;
+}
+
+.active:hover {
+     background: var(--white) !important; color: var(--danger) !important;
+     }
+
 /* TECHONOLOGIE */
 
 .techLogo{
-    height: 200px;
+    height:200px;
      width: 50%;
     }
 
-  
+    /* FOOTER */
+    .bi{
+        font-size: 2.5em !important;
+    }
+    
