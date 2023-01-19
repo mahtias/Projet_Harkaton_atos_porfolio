@@ -1,0 +1,62 @@
+img{
+    width: 50px;
+    height: 245px;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ffffff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  /* debut navbar */
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    background-color:black;
+    color: #fff;
+    height: 70px;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+}
+header a:hover{
+    color: green;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    margin-right: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+  
+
+  
+ /* fin navbar */
