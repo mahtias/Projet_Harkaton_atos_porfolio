@@ -12,6 +12,7 @@ header{
     color: #fff;
     height: 70px;
 }
+
 :root{
     --danger:rgb(178, 42, 42);
     --white:white;
@@ -48,7 +49,7 @@ header{
 /* style sur les images */
 img{
     width: 40px;
-    height: 245px;
+    height: 321px;
     
 
 }
@@ -62,14 +63,22 @@ img:hover {
 }
 /* fin de style image */
 /*  style body et h2 */
-body{
-    /* background-color: rgb(79, 79, 216); */
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPcxKzD2QCBQQPgc0mZXPyCB6ZHyNVSentBA&usqp=CAU");
-    background-repeat: no-repeat ;
-	background-size:cover ;
-}
+
 h2{
     color:black;
 }
 /* fin de style */
 
+.bi{
+    font-size: 2.5em !important;
+}
+/* section image blog */
+.image_folio{
+    width: 60%;
+    margin: auto;
+}
+.image_folio img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
