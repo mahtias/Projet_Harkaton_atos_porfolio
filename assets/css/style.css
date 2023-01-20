@@ -12,6 +12,10 @@ header{
     color: #fff;
     height: 70px;
 }
+.row{
+    margin: 8px;
+    margin-left: 1px;
+}
 
 :root{
     --danger:rgb(178, 42, 42);
@@ -47,19 +51,11 @@ header{
   
  /* fin navbar */
 /* style sur les images */
-img{
-    width: 40px;
-    height: 321px;
-    
 
-}
 img:hover {
 	-webkit-transform: scale(1.2);
 	transform: scale(1.1);
-    Animation-name : fade ;
-    Animation-delay : 2s ;
-    Animation-duration : 3s ;
-    Animation-iteration-count : infinite ;
+   
 }
 /* fin de style image */
 /*  style body et h2 */
@@ -72,13 +68,16 @@ h2{
 .bi{
     font-size: 2.5em !important;
 }
-/* section image blog */
-.image_folio{
-    width: 60%;
-    margin: auto;
-}
-.image_folio img{
-    margin-left: 20px;
-    margin-bottom: 20px;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
