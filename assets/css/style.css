@@ -131,3 +131,87 @@
 
 
     
+
+/* debut navbar */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    background-color:black;
+    color: #fff;
+    height: 70px;
+}
+
+:root{
+    --danger:rgb(178, 42, 42);
+    --white:white;
+}
+.navbar{
+    background:var(--danger);
+}
+.nav-link{
+    color: var(--white) !important;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+     background: var(--white); color: var(--danger) !important
+    }
+.navbar-collapse {
+     justify-content: flex-end;
+    }
+.navbar-toggler {
+     background:#fff !important;
+    }
+.active{
+    color: #fff !important;
+}
+.active:hover {
+     background: var(--white) !important; color: var(--danger) !important;
+     }
+  
+
+  
+ /* fin navbar */
+/* style sur les images */
+img{
+    width: 40px;
+    height: 321px;
+    
+
+}
+img:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.1);
+    Animation-name : fade ;
+    Animation-delay : 2s ;
+    Animation-duration : 3s ;
+    Animation-iteration-count : infinite ;
+}
+/* fin de style image */
+/*  style body et h2 */
+
+h2{
+    color:black;
+}
+/* fin de style */
+
+.bi{
+    font-size: 2.5em !important;
+}
+/* section image blog */
+.image_folio{
+    width: 60%;
+    margin: auto;
+}
+.image_folio img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
