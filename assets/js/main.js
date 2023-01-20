@@ -1,3 +1,4 @@
+
 imTail.onclick = function() {
     let start = Date.now();
 
@@ -10,3 +11,12 @@ imTail.onclick = function() {
 
     }, 20);
   }
+
+let eltsH = document.getElementsByClassName('h');
+console.log(eltsH);
+
+eltsH.fo
+
+for (let elt in eltsH) {
+   console.log(eltsH[elt]);
+}
