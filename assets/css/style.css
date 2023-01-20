@@ -2,6 +2,8 @@
 :root{
     --danger:rgb(178, 42, 42);
     --white:white;
+    
+
 }
 
 /* NAVBAR */
@@ -49,4 +51,83 @@
     .bi{
         font-size: 2.5em !important;
     }
+
+    .tailM{
+        width: 45px;
+        height: 20px;
+    }
+
+
+    #tale12{
+     width: 100%;
+    }
+
+
+    #tailMin{
+        width: 40px;
+        height: 300px;
+        
+    
+    } 
+
+    #tailMin1{
+        width: 350px;
+        height: 350px;
+    }
+    img:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.1);
+        Animation-name : fade ;
+        Animation-delay : 2s ;
+        Animation-duration : 3s ;
+        Animation-iteration-count : infinite ;
+    }
+    /* fin de style image */
+    /*  style body et h2 */
+    
+    h2{
+        color:black;
+    }
+    /* fin de style */
+    
+    .bi{
+        font-size: 2.5em !important;
+    }
+    /* section image blog */
+    .image_folio{
+        width: 60%;
+        margin: auto;
+    }
+    .image_folio img{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    
+    }
+
+
+    /*  augmenter la taille de l'image dans le bloc Un mot  */
+
+    .imTail{
+     width:600px;
+
+     position: relative;
+    cursor: pointer;
+    }
+
+    #carousel-caption-d-none-d-md-block{
+      color: white;
+    }
+
+    #carousel-item{
+       padding-bottom: -200%;
+    }
+
+
+#justef{
+    margin-left: 500px;
+}
+    
+
+
+
     
