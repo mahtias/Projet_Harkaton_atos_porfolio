@@ -1,7 +1,10 @@
+
 /* GENERALE */
 :root{
     --danger:rgb(178, 42, 42);
     --white:white;
+    
+
 }
 
 /* NAVBAR */
@@ -49,4 +52,213 @@
     .bi{
         font-size: 2.5em !important;
     }
+
+    .tailM{
+        width: 50px;
+        height: 20px;
+    }
+
+
+    #tale12{
+     width: 100%;
+    }
+
+
+    #tailMin{
+        width: 40px;
+        height: 300px;
+        
     
+    } 
+
+    #tailMin1{
+        width: 500px;
+        height: 350px;
+    }
+    img:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.1);
+        Animation-name : fade ;
+        Animation-delay : 2s ;
+        Animation-duration : 3s ;
+        Animation-iteration-count : infinite ;
+    }
+    /* fin de style image */
+    /*  style body et h2 */
+    
+    h2{
+        color:black;
+    }
+    /* fin de style */
+    
+    .bi{
+        font-size: 2.5em !important;
+    }
+    /* section image blog */
+    .image_folio{
+        width: 60%;
+        margin: auto;
+    }
+    .image_folio img{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    
+    }
+
+
+    /*  augmenter la taille de l'image dans le bloc Un mot  */
+
+    .imTail{
+     width:600px;
+
+     position: relative;
+    cursor: pointer;
+    }
+
+    #carousel-caption-d-none-d-md-block{
+      color: white;
+    }
+
+    #carousel-item{
+       padding-bottom: -200%;
+    }
+
+
+#justef{
+    margin-left: 500px;
+}
+    
+
+
+
+    
+
+/* debut navbar */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    background-color:black;
+    color: #fff;
+    height: 70px;
+}
+.row{
+    margin: 8px;
+    margin-left: 1px;
+}
+
+:root{
+    --danger:rgb(178, 42, 42);
+    --white:white;
+}
+.navbar{
+    background:var(--danger);
+}
+.nav-link{
+    color: var(--white) !important;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+     background: var(--white); color: var(--danger) !important
+    }
+.navbar-collapse {
+     justify-content: flex-end;
+    }
+.navbar-toggler {
+     background:#fff !important;
+    }
+.active{
+    color: #fff !important;
+}
+.active:hover {
+     background: var(--white) !important; color: var(--danger) !important;
+     }
+  
+
+  
+ /* fin navbar */
+/* style sur les images */
+
+img:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.1);
+   
+}
+/* fin de style image */
+/*  style body et h2 */
+
+h2{
+    color:black;
+}
+/* fin de style */
+
+.bi{
+    font-size: 2.5em !important;
+}
+
+
+
+
+
+:root{
+  --danger:rgb(178, 42, 42);
+  --white:white;
+}
+.navbar{
+  background:var(--danger);
+}
+.nav-link{
+  color: var(--white) !important;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+   background: var(--white); color: var(--danger) !important
+  }
+
+  
+  .navbar-collapse {
+   justify-content: flex-end;
+  }
+.navbar-toggler {
+   background:#fff !important;
+  }
+.active{
+  color: #fff !important;
+}
+.active:hover, .active {
+   background: var(--white) !important; color: var(--danger) !important;
+   }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.bi{
+  font-size: 2.5em !important ;
+}
+
+.bg{
+  background-color: var(--danger);
+}
+.btn{
+  background-color: var(--danger);
+}
+
+
+.granidrText{
+    font-size: 100%;
+}
